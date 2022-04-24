@@ -1,0 +1,30 @@
+.hidden {
+    display: none;
+}
+#weather{
+    background-color: aqua;
+}
+#quote{
+    top: 700px;
+    width: 100%;
+    left : 100px;
+    text-align: center;
+    color : white;
+    background-color: black;
+    position : absolute;
+}
+#todo-list span{
+    width: 100px;
+}
+body img {
+    min-width: 100%;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: auto;
+    position: fixed;
+    z-index: -1;
+}
